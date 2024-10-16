@@ -1,0 +1,25 @@
+/* Appliquer un fond noir au header */
+header {
+  background-color: rgb(109, 109, 110);
+  color: rgb(255, 255, 255); /* Texte en blanc */
+  padding: 15px;
+}
+
+/* Appliquer un fond bleu au reste de la page */
+body {
+  background-color: #508caa; /* Bleu */
+  color: #ffffff; /* Texte en noir */
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Style des liens dans le header */
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Style des liens au survol dans le header */
+header a:hover {
+  text-decoration: underline;
+}
